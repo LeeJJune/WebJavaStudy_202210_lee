@@ -9,7 +9,7 @@ public class JSON1 {
 
         JsonObject jsonObject = new JsonObject();
 
-        jsonObject.addProperty("username", "junil");
+        jsonObject.addProperty("username", "june");
         jsonObject.addProperty("password", "1234");
         jsonObject.addProperty("email", "skji1218@gmail.com");
         jsonObject.addProperty("name", "김준일");
