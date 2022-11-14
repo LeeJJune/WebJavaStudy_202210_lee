@@ -22,11 +22,11 @@ public class Main {
         runnable1.run();
         runnable2.run();
 
-        //쓰레드는 동시 동작이 가능하다(그래서 반복문이 동시에 돌아간다
+        //쓰레드는 동시 동작이 가능하다(그래서 반복문이 동시에 돌아간다)
         Thread thread = new Thread(() -> {
-            for (int i = 0; i < 100; i++) {
+            for (int i = 0; i < 10; i++) {
                 try {
-                    Thread.sleep(100);
+                    Thread.sleep(10);
                     System.out.println("쓰레드1: " + i);
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
@@ -34,9 +34,9 @@ public class Main {
             }
         });
         Thread thread2 = new Thread(() -> {
-            for (int i = 0; i < 100; i++) {
+            for (int i = 0; i < 10; i++) {
                 try {
-                    Thread.sleep(100);
+                    Thread.sleep(10);
                     System.out.println("쓰레드2: " + i);
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
@@ -64,6 +64,6 @@ public class Main {
 
         // Predicate 사용법
         Predicate<Integer> leapMouth = year -> year % 4 == 0 && year % 100 != 0 || year % 400 ==0;
-        System.out.println(leapMouth.test(2000));
+        System.out.println(leapMouth.test(2001));
     }
 }

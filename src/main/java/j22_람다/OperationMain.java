@@ -23,9 +23,7 @@ public class OperationMain {
 //        };
         // 위 람다식 한 줄로 줄이기
         Operation sub = (x, y) -> x - y;
-
         System.out.println(sub.printResult(sub.calc(b, a)));
-
 
 
 //        int addResult = add.calc(a, b);
@@ -33,7 +31,6 @@ public class OperationMain {
 
         int addResult2 = add2.calc(a, b);
         System.out.println(a+" + "+b+"= "+addResult2);
-
         System.out.println(sub.calc(b, a));
 
         // 람다식 곱하기
@@ -43,7 +40,5 @@ public class OperationMain {
         // 람다식 나누기
         Operation div = (x, y) -> x / y;
         System.out.println(sub.printResult(div.calc(b, a)));
-
-
     }
 }

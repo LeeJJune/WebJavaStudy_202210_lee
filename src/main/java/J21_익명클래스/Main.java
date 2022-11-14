@@ -3,6 +3,7 @@ package J21_익명클래스;
 public class Main {
 
     public static void main(String[] args){
+
         Interface1 interface1 = new Class1();
         Interface1 interface2 = new Class1();
         Interface1 interface3 = new Class1();
