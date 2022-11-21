@@ -1,0 +1,12 @@
+package j15_Object클래스.j16_Bean;
+
+//서비스 객체 (비즈니스 로직)
+public class UserService {
+
+    /*
+     * 기능(역활 별로 구분해서 class 생성 할 것
+     * 메소드들의 집합
+     *
+     *  */
+
+}

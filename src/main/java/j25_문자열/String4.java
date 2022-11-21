@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+// startsWith   : 시작하는 단어를 검색한다(맨처음 한 단어만 일치해도 검색된다) ex) ROLE <- "R"첫단어
+// endsWith     : 맨끝에 단어를 검색한다(맨끝 한 단어만 일치해도 검색된다)  ex) ROLE <- "E" 첫단어
+
 public class String4 {
     public static void main(String[] args) {
 
