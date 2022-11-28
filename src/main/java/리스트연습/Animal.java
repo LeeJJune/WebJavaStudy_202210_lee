@@ -1,7 +1,12 @@
 package 리스트연습;
 
-public class Animal{
-    private int code;
-    private String name;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
+@AllArgsConstructor
+@Data
+
+public class Animal{
+    private int animalCode;
+    private String animalName;
 }
