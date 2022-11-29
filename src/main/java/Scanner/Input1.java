@@ -21,7 +21,7 @@ public class Input1 {
 
         System.out.println("입력받은값: "+s);
         System.out.println("입력받은값2: "+s2);
-        System.out.println("입력받은값2: "+s3);
+        System.out.println("입력받은값3: "+s3);
 
     }
 }
