@@ -1,4 +1,4 @@
-package j25_문자열;
+package Variable.src.main.java.j25_문자열;
 
 public class String1 {
     public static void main(String[] args) {

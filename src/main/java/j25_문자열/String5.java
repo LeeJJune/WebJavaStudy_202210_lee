@@ -1,4 +1,4 @@
-package j25_문자열;
+package Variable.src.main.java.j25_문자열;
 
 // equalsIgnoreCase : 대소문자 구분없이 조건을 검색하다
 

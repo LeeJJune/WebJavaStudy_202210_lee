@@ -1,6 +1,4 @@
-package j25_문자열;
-
-import java.util.Scanner;
+package Variable.src.main.java.j25_문자열;
 
 public class String3 {
     public static void main(String[] args) {

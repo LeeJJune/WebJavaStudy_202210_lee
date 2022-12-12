@@ -1,8 +1,7 @@
-package j24_forEach;
+package WebJavaStudy_202210_lee.src.main.java.j24_forEach;
 
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.function.Consumer;
 
 public class CollectionForEach {
     public static void main(String[] args) {

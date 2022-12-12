@@ -1,4 +1,4 @@
-package j25_문자열;
+package Variable.src.main.java.j25_문자열;
 
 import java.util.ArrayList;
 import java.util.Arrays;
